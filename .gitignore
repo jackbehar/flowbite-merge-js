@@ -68,7 +68,9 @@ typings/
 # Merge
 .uxpin-merge
 
-# package-lock.json
+package-lock.json
+
+yarn.lock
 
 # vs-code 
 
