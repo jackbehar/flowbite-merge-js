@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 
 
 function Button(props) {
-  return <ButtonM {...props} color="primary"/>
+  return <ButtonM {...props}/>
 }
 
 Button.propTypes = {
