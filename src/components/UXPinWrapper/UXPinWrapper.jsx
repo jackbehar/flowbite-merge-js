@@ -6,7 +6,7 @@ import './index.css'
 // eslint-disable-next-line react/prop-types
 
 
-const customTheme= {
+const customTheme = {
   button: {
     color: {
       primary: 'bg-red-500 hover:bg-red-600',
@@ -17,8 +17,7 @@ const customTheme= {
 
 
 export default function UXPinWrapper({ children }) {
-  
-  return <Flowbite theme={{ theme: customTheme }}>
-    {children}
-  </Flowbite>;
+  return (
+    <Flowbite theme={{ theme: customTheme }}>{children}</Flowbite>
+  )
 }
